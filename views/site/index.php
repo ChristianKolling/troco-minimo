@@ -36,11 +36,11 @@ $this->title = 'Problema do Troco';
                 </div>            
                 <p>
                     <?php
-                    $denominations = array();
+                    $denominacao = array();
                     foreach ($moedas as $key => $value) {
-                        $denominations[] = '<strong>' . $key . '</strong>: ' . $value;
+                        $denominacao[] = '<strong>' . $key . '</strong>: ' . $value;
                     }
-                    echo implode('&nbsp; / &nbsp;', $denominations);
+                    echo implode('&nbsp; / &nbsp;', $denominacao);
                     ?>
                 </p>
             </div>           
